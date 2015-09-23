@@ -1,12 +1,40 @@
-*.class
+!.gitignore
+!.gitattributes
+!.*.md
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.box
+*.fmd
+*.go~
+*.im
+*.iml
+*.ipr
+*.iws
+*.log
+*.pyc
+*.swp
+.DS_Store
+.cache
+.classpath
+.idea
+*.kube/
+.project
+.settings
+.tag*
+.vagrant-openshift.json*
+.vimrc
+/.project
+*.vagrant
+/_output
+/_tools
+/assets/nbproject
+/cpu.pprof
+/examples/sample-app/logs/openshift.log
+/examples/sample-app/openshift.local.*
+/openshift.local.*
+/third-party
+apps/modifiedFabric8.json
+dependency-reduced-pom.xml
+kube-cluster/kubernetes
+origin.iml
+overlays
+target
